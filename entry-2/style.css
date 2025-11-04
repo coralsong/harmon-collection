@@ -1,0 +1,13 @@
+html {
+  color:white;
+  background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+color: #39FF14
+}
