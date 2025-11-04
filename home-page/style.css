@@ -1,3 +1,8 @@
+* > {
+  box-sizing: border-box;
+
+}
+
 html {
   background-color: black;
 }
@@ -15,15 +20,16 @@ nav {
 }
 
 #navigation-text {
+  initial-letter-align: baseline;
   position: absolute;
-
   height: 10px;
-  text-align: column;
+  left: 200px;
+  text-align: row;
   align-items: left;
   margin: 5px;
   padding: 10px;
   /* justify-content: space-evenly; */
-  max-width: 1300px;
+  max-width: 1000px;
 }
 
 #name {
@@ -67,7 +73,7 @@ article {
   color: white;
   margin: 10px;
   /* height: 750px; */
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 #article-text {
@@ -79,7 +85,7 @@ article {
   justify-content: space-around;
 }
 
-/*got help from css library to clear float!*/
+/* got help from css library to clear float! */
 section::after {
   content: "";
   display: table;
