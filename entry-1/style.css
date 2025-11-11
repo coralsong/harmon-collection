@@ -1,13 +1,16 @@
 html {
-  color:white;
-  background-color: black;
+
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
 color: #39FF14
+}
+
+iframe {
+  left: 100px;
 }
