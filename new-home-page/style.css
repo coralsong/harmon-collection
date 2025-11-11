@@ -4,40 +4,118 @@
 }
 
 html {
-/* padding-left: 50px;
-padding-top: 10px; */
-font-family: Helvetica, sans-serif;
-font-weight: lighter;
-max-width: 1250px;
+  background-color: black;
 }
 
-#overlay {
-    background-color: #EEEEEE;
-    position: absolute;
-    z-index: -1;
+nav {
+  background-color: black;
+  color: white;
+  border-style: dashed;
+  border-width: 2px;
+  position: relative;
+  left: 10px;
+  display: flex;
+  margin: 5px;
+  padding: 10px;
 }
 
-#vid1 {
-  top: 100px;
-left: 100px;
-  max-height: 100px;
-    background-color: #ffffff;
-    position: absolute;
-    z-index: -1;
+#navigation-text {
+  initial-letter-align: baseline;
+  position: absolute;
+  height: 10px;
+  left: 200px;
+  text-align: row;
+  align-items: left;
+  margin: 5px;
+  padding: 10px;
+  /* justify-content: space-evenly; */
+  max-width: 1000px;
 }
 
-#vid2 {
-left: 600px;
-top: 105px;
-max-height: 140px;
-    background-color: #ffffff;
-    position: absolute;
-    z-index: -1;
+#name {
+   position: relative;
+  left: 30px;
+  display: flex;
+  height: 10px;
+  text-align: column;
+  align-items: left;
+  margin: 5px;
+  padding: 10px;
+  /* justify-content: space-evenly; */
+  /* max-width: 1300px;  */
+}
+
+
+aside {
+  float: left;
+  background-color: black;
+  color: white;
+  border-style: dashed;
+  border-width: 2px;
+  height: 650px;
+  width: 20%;
+  margin: 20px;
+}
+
+aside ul{ 
+  list-style-type: none;
+  padding: 0;
+}
+
+#aside-text {
+  margin: 5px;
+  padding: 5px;
+}
+
+article {
+  float: left;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  /* height: 750px; */
+  max-width: 900px;
+}
+
+#article-text {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+/* got help from css library to clear float! */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  border-style: dashed;
+  border-width: 2px;
+  position: relative;
+  /* bottom: 0px; */
+}
+
+#footer-text {
+  display: flex;
+  height: 10px;
+  text-align: center;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
 }
 
 a {
-color: black;
-text-decoration-line: none;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
@@ -47,47 +125,30 @@ color: #39FF14
 
 
 h1 {
-padding-left: 100px;
-font-family: Helvetica, sans-serif;
-font-weight: lighter;
-font-size: 30px;
-/* color: red; */
+  border-style: dashed;
+  border-width: 2px;
+  margin: 10px;
+  padding: 100px;
+  align-items: center;
 }
 
-section {
-top: 430px;
-left: 100px;
-    background-color: none;
-    position: absolute;
-    z-index: -1;
-  /* color: red; */
+h2 {
+  font-size: 14px;
+  border-style: hidden;
+  margin: 10px;
 }
 
-#vid3 {
-  top: 320px; */
-    background-color: none;
-    position: absolute;
-    z-index: -1;
-    /* width: 300px; */
+h3,ul {
+  font-size: 12px;
+  border-style: hidden;
+  margin: 10px;
 }
 
-#blue {
-  color: blue;
-}
-
-#quote {
-  top: 330px;
-  left: 340px;
-  max-width: 900px;
-}
-
-#red {
-  color: red;
-  top: 550px;
-}
-
-#entries {
-  color: red;
-  left: 500px;
-  top: 300px;
-}
+@media (max-width: 768px) {
+    div {
+      /* background-color: gold; */
+    }
+    section {
+      flex-direction: column;
+    }
+  }
