@@ -1,0 +1,66 @@
+* > {
+  box-sizing: border-box;
+
+}
+
+html {
+padding-left: 50px;
+font-family: Helvetica, sans-serif;
+font-weight: lighter;
+font-size: 40 px;
+}
+
+aside {
+font-weight: lighter;
+}
+
+#aside-text {
+font-weight: lighter;
+}
+
+article {
+
+}
+
+#article-text {
+
+}
+
+/* got help from css library to clear float! */
+
+}
+
+.footer {
+
+}
+
+#footer-text {
+
+}
+
+a {
+color: black;
+text-decoration-line: none;
+}
+
+a:hover {
+color: #39FF14
+}
+
+
+
+h1 {
+padding-left: 50px;
+font-family: Helvetica, sans-serif;
+font-weight: lighter;
+font-size: 40 px;
+color: black;
+}
+
+h2 {
+
+}
+
+h3,ul {
+
+}
