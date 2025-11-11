@@ -75,8 +75,19 @@ left: 100px;
   color: blue;
 }
 
+#quote {
+  top: 330px;
+  left: 340px;
+  max-width: 900px;
+}
+
 #red {
   color: red;
-  top: 230px;
-  left: 280px;
+  top: 550px;
+}
+
+#entries {
+  color: red;
+  left: 500px;
+  top: 300px;
 }
