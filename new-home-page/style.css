@@ -18,7 +18,7 @@ max-width: 1250px;
 }
 
 #vid1 {
-  top: 50px;
+  top: 100px;
 left: 100px;
   max-height: 100px;
     background-color: #ffffff;
@@ -28,7 +28,7 @@ left: 100px;
 
 #vid2 {
 left: 600px;
-top: 185px;
+top: 105px;
 max-height: 140px;
     background-color: #ffffff;
     position: absolute;
