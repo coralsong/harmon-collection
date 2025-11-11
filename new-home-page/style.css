@@ -4,10 +4,15 @@
 }
 
 html {
-padding-left: 50px;
+padding-left: 50 px;
 font-family: Helvetica, sans-serif;
 font-weight: lighter;
 font-size: 40 px;
+max-width: 200 px;
+}
+
+div {
+
 }
 
 aside {
@@ -22,21 +27,7 @@ article {
 
 }
 
-#article-text {
 
-}
-
-/* got help from css library to clear float! */
-
-}
-
-.footer {
-
-}
-
-#footer-text {
-
-}
 
 a {
 color: black;
@@ -55,6 +46,7 @@ font-family: Helvetica, sans-serif;
 font-weight: lighter;
 font-size: 40 px;
 color: black;
+
 }
 
 h2 {
