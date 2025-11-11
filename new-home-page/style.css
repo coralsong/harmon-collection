@@ -3,99 +3,24 @@
 
 }
 
-html {
-  background-color: black;
-}
+  img {
+    width: 300px;
+    height: 225px;
+  }
 
-nav {
-  background-color: black;
-  color: white;
-  border-style: dashed;
-  border-width: 2px;
-  position: relative;
-  left: 10px;
-  display: flex;
-  margin: 5px;
-  padding: 10px;
-}
-
-#navigation-text {
-  initial-letter-align: baseline;
-  position: absolute;
-  height: 10px;
-  left: 200px;
-  text-align: row;
-  align-items: left;
-  margin: 5px;
-  padding: 10px;
-  /* justify-content: space-evenly; */
-  max-width: 1000px;
-}
-
-#name {
-   position: relative;
-  left: 30px;
-  display: flex;
-  height: 10px;
-  text-align: column;
-  align-items: left;
-  margin: 5px;
-  padding: 10px;
-  /* justify-content: space-evenly; */
-  /* max-width: 1300px;  */
-}
-
-
-aside {
-  float: left;
-  background-color: black;
-  color: white;
-  border-style: dashed;
-  border-width: 2px;
-  height: 650px;
-  width: 20%;
-  margin: 20px;
-}
-
-aside ul{ 
-  list-style-type: none;
-  padding: 0;
-}
-
-#aside-text {
-  margin: 5px;
-  padding: 5px;
-}
-
-article {
-  float: left;
-  background-color: black;
-  color: white;
-  margin: 10px;
-  /* height: 750px; */
-  max-width: 900px;
-}
-
-#article-text {
+.container {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
-  margin: 0px;
-  padding: 0px;
-  justify-content: space-around;
 }
 
-/* got help from css library to clear float! */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+.container div {
+  margin: 10px;
+  padding: 15px;
 }
 
 .footer {
-  background-color: black;
-  color: white;
-  border-style: dashed;
+  color: black;
+  border-style: hidden;
   border-width: 2px;
   position: relative;
   /* bottom: 0px; */
@@ -114,35 +39,14 @@ section::after {
 }
 
 a {
-    color: white;
-    text-decoration: none;
+
 }
 
 a:hover {
-color: #39FF14
+
 }
 
 
-
-h1 {
-  border-style: dashed;
-  border-width: 2px;
-  margin: 10px;
-  padding: 100px;
-  align-items: center;
-}
-
-h2 {
-  font-size: 14px;
-  border-style: hidden;
-  margin: 10px;
-}
-
-h3,ul {
-  font-size: 12px;
-  border-style: hidden;
-  margin: 10px;
-}
 
 @media (max-width: 768px) {
     div {
