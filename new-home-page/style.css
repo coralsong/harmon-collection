@@ -25,6 +25,15 @@ left: 100px;
     z-index: -1;
 }
 
+#farmer-2 {
+left: 600px;
+top: 185px;
+max-height: 140px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: -1;
+}
+
 a {
 color: black;
 text-decoration-line: none;
@@ -44,10 +53,3 @@ font-size: 30px;
 color: black;
 }
 
-h2 {
-
-}
-
-h3,ul {
-
-}
