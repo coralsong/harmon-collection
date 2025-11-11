@@ -143,3 +143,12 @@ h3,ul {
   border-style: hidden;
   margin: 10px;
 }
+
+@media (max-width: 768px) {
+    div {
+      /* background-color: gold; */
+    }
+    section {
+      flex-direction: column;
+    }
+  }

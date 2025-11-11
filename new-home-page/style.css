@@ -50,6 +50,13 @@ padding-left: 100px;
 font-family: Helvetica, sans-serif;
 font-weight: lighter;
 font-size: 30px;
-color: black;
+/* color: black; */
 }
 
+div {
+
+    background-color: #ffffff;
+    position: absolute;
+    z-index: -1;
+        color: red;
+}
