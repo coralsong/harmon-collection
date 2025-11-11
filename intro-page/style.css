@@ -1,93 +1,14 @@
-* > {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Coral+Pixels&family=Funnel+Display:wght@300..800&family=Rubik+Pixels&display=swap');
 
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
-html {
-/* padding-left: 50px;
-padding-top: 10px; */
-font-family: Helvetica, sans-serif;
-font-weight: lighter;
-max-width: 1250px;
-}
-
-#overlay {
-    background-color: #EEEEEE;
-    position: absolute;
-    z-index: -1;
-}
-
-#vid1 {
-  top: 100px;
-left: 100px;
-  max-height: 100px;
-    background-color: #ffffff;
-    position: absolute;
-    z-index: -1;
-}
-
-#vid2 {
-left: 600px;
-top: 105px;
-max-height: 140px;
-    background-color: #ffffff;
-    position: absolute;
-    z-index: -1;
-}
-
-a {
-color: black;
-text-decoration-line: none;
-}
-
-a:hover {
-color: #39FF14
-}
-
-
 
 h1 {
-padding-left: 100px;
-font-family: Helvetica, sans-serif;
-font-weight: lighter;
-font-size: 30px;
-/* color: red; */
-}
-
-section {
-top: 430px;
-left: 100px;
-    background-color: none;
-    position: absolute;
-    z-index: -1;
-  /* color: red; */
-}
-
-#vid3 {
-  top: 320px; */
-    background-color: none;
-    position: absolute;
-    z-index: -1;
-    /* width: 300px; */
-}
-
-#blue {
-  color: blue;
-}
-
-#quote {
-  top: 330px;
-  left: 340px;
-  max-width: 900px;
-}
-
-#red {
-  color: red;
-  top: 550px;
-}
-
-#entries {
-  color: red;
-  left: 500px;
-  top: 300px;
+  font-size: 80px;
+  font-family: "Coral Pixels", serif;
+    font-weight: 400;
+  font-style: normal;
 }
