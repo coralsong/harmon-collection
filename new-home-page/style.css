@@ -17,7 +17,8 @@ max-width: 1250px;
     z-index: -1;
 }
 
-iframe {
+#vid1 {
+  top: 50px;
 left: 100px;
   max-height: 100px;
     background-color: #ffffff;
@@ -25,7 +26,7 @@ left: 100px;
     z-index: -1;
 }
 
-#farmer-2 {
+#vid2 {
 left: 600px;
 top: 185px;
 max-height: 140px;
@@ -50,13 +51,32 @@ padding-left: 100px;
 font-family: Helvetica, sans-serif;
 font-weight: lighter;
 font-size: 30px;
-/* color: black; */
+/* color: red; */
 }
 
-div {
+section {
 top: 430px;
+left: 100px;
+    background-color: none;
+    position: absolute;
+    z-index: -1;
+  /* color: red; */
+}
+
+#vid3 {
+  top: 320px; */
     background-color: #ffffff;
     position: absolute;
     z-index: -1;
+    /* width: 300px; */
+}
+
+#blue {
+  color: blue;
+}
+
+#red {
   color: red;
+  top: 230px;
+  left: 280px;
 }
