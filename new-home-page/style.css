@@ -54,9 +54,9 @@ font-size: 30px;
 }
 
 div {
-
+top: 430px;
     background-color: #ffffff;
     position: absolute;
     z-index: -1;
-        color: red;
+  color: red;
 }
