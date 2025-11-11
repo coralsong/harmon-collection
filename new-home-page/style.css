@@ -4,30 +4,27 @@
 }
 
 html {
-padding-left: 50 px;
+/* padding-left: 50px;
+padding-top: 10px; */
 font-family: Helvetica, sans-serif;
 font-weight: lighter;
-font-size: 40 px;
-max-width: 200 px;
+font-size: 40px;
+max-width: 1250px;
 }
 
-div {
-
+#overlay {
+    background-color: #EEEEEE;
+    position: absolute;
+    z-index: -1;
 }
 
-aside {
-font-weight: lighter;
+iframe {
+left: 100px;
+  max-height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: -1;
 }
-
-#aside-text {
-font-weight: lighter;
-}
-
-article {
-
-}
-
-
 
 a {
 color: black;
@@ -41,12 +38,11 @@ color: #39FF14
 
 
 h1 {
-padding-left: 50px;
+padding-left: 100px;
 font-family: Helvetica, sans-serif;
 font-weight: lighter;
-font-size: 40 px;
+font-size: 40px;
 color: black;
-
 }
 
 h2 {
