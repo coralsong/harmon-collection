@@ -39,21 +39,26 @@
   bottom: 0px;
 }
 
-a {
+    .image-hover-container {
+        width: 330px; /* Example width */
+        height: 225px; /* Example height */
+        background-image: url('../archive/entry1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: background-image 0.3s ease-in-out; /* Optional: for a smooth transition */
+    }
 
-}
+        .image-hover-container:hover {
+        background-image: url('../archive/entry1.png');
+    }
 
-div:hover {
-
-}
-
-
-
+/* 
 @media (max-width: 768px) {
     div {
       /* background-color: gold; */
     }
-    section {
+    /* section {
       flex-direction: column;
     }
-  }
+  } */ */
