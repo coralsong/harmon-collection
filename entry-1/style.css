@@ -16,7 +16,7 @@ iframe {
 
 }
 
-body {
+/* body {
   /* Set a linear gradient as the background image */
   background: linear-gradient(
     to right, /* Direction of the gradient, e.g., to right, to bottom, or an angle like 45deg */
@@ -30,4 +30,4 @@ body {
   );
   /* Ensure the background covers the entire viewport */
   min-height: 100vh;
-}
+} */
