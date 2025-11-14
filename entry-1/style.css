@@ -1,36 +1,9 @@
-html {
-
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-color: #39FF14
-}
-
 iframe {
-  left: 100px;
+  position: relative;
+  left: 500px;
 
 }
 
-/* body {
-  /* Set a linear gradient as the background image */
-  background: linear-gradient(
-    to right, /* Direction of the gradient, e.g., to right, to bottom, or an angle like 45deg */
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
-  );
-  /* Ensure the background covers the entire viewport */
-  min-height: 100vh;
-} */
 
 html {
   color:white;
@@ -38,7 +11,7 @@ html {
 }
 
 a {
-    color: white;
+  color: white;
     text-decoration: none;
 }
 
