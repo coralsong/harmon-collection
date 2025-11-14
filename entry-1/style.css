@@ -31,3 +31,18 @@ iframe {
   /* Ensure the background covers the entire viewport */
   min-height: 100vh;
 } */
+
+html {
+  color:white;
+  background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+color: #39FF14
+}
+
