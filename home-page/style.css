@@ -24,7 +24,7 @@
   border-style: hidden;
   border-width: 2px;
   position: relative;
-  /* bottom: 0px; */
+  bottom: 0px;
 }
 
 #footer-text {
@@ -49,11 +49,11 @@
         /* transition: background-image 0.3s ease-in-out; */
     }
 
-        /* .image-hover-container:hover {
+        .image-hover-container:hover {
         background-image: url('../archive/entry1.png');
-    } */
+    }
 
-/* 
+
 @media (max-width: 768px) {
     div {
       /* background-color: gold; */
@@ -61,4 +61,4 @@
     /* section {
       flex-direction: column;
     }
-  } */ */
+  } */
