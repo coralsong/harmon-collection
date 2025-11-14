@@ -40,18 +40,18 @@
 }
 
     .image-hover-container {
-        width: 330px; /* Example width */
-        height: 225px; /* Example height */
-        background-image: url('../archive/entry1.png');
+        width: 330px;
+        height: 225px;
+        /* background-image: url('../archive/entry1.png'); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        transition: background-image 0.3s ease-in-out; /* Optional: for a smooth transition */
+        /* transition: background-image 0.3s ease-in-out; */
     }
 
-        .image-hover-container:hover {
+        /* .image-hover-container:hover {
         background-image: url('../archive/entry1.png');
-    }
+    } */
 
 /* 
 @media (max-width: 768px) {
