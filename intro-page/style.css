@@ -38,3 +38,7 @@ a {
 a:hover {
 color: #39FF14
 }
+
+html {
+  background-color: whitesmoke;
+}

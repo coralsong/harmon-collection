@@ -1,7 +1,7 @@
 iframe {
   position: relative;
   left: 25%;
-  top: 100px;;
+  top: 100px;
 }
 
 
@@ -17,5 +17,22 @@ a {
 
 a:hover {
 color: #39FF14
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+#onion {
+  position: relative;
+  top: -400px;
+  left: -70px;
+}
+
+#shoes {
+  position: relative;
+  top: -400px;
+  left: 0px;
 }
 
