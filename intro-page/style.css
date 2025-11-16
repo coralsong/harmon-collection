@@ -8,6 +8,8 @@
 
 body {
 /* max-width: 1200px; */
+position: relative;
+top: 100px;
 }
 
 h1 {
