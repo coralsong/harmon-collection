@@ -42,6 +42,7 @@ font-size: 40px;
     top: 100px;
     left: 100px;
     opacity: 0;
+    display: block;
 }
 
 
