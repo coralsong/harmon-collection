@@ -1,0 +1,90 @@
+html {
+  color:white;
+  background-color: black;
+}
+
+a {
+    opacity: 0;
+    text-decoration: none;
+    font-size: 60px;
+    z-index: 100;
+}
+
+a:hover {
+    opacity: 100;
+/* color: #4A5D23; */
+color: white;
+text-decoration-line: none;
+z-index: 100;
+}
+
+/* #background {
+    position: relative;
+    z-index: 5;
+    visibility: hidden;
+}
+
+#background img {
+    position: relative;
+    z-index: 5;
+    margin: 0px;
+    top: 0px;
+} */
+
+#change-color {
+    position: relative;
+    z-index: 10;
+    /* filter: hue-rotate(200deg); */
+}
+
+#change-color img{
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    top: 10px;
+}
+
+
+h1 {
+position: absolute;
+top: 10px;
+left: 30px;
+font-size: 40px;
+}
+
+/* .floating {
+    position: absolute;
+    z-index: 5;
+    top: 100px;
+    left: 100px;
+    opacity: 0;
+    display: block;
+}
+
+.floating:hover {
+opacity: 1;
+} */
+
+/* .text {
+    position: absolute;
+    z-index: 10;
+    top: 230px;
+    left: 250px;
+} */
+
+/* p {
+    position: absolute;
+    font-size: 12px;
+    max-width: 50px;
+} */
+
+/* .maps{
+width: 210px;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    margin: 0px;
+    padding: 0px;
+    left: 1065px;
+    top: 435px;
+} */
