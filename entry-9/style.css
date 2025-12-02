@@ -42,7 +42,7 @@ html {
 /* how to I make it so that it moves when only hovered on the shilouette? */
   #change-color {
       position: absolute;
-      z-index: 2;
+      z-index: 9;
       filter: hue-rotate(200deg);
       top: -30px;
       left: -75px;
@@ -51,7 +51,7 @@ html {
   
   #change-color img{
       position: relative;
-      z-index: 2;
+      z-index: 9;
       margin: 10px;
       top: 10px;
   }
