@@ -37,8 +37,8 @@
 <script>
 // youtube video
 
-const imgEl = document.getELementById('random-image');
-const btn = document.getELementById('random-btn');
+const imgEl = document.getElementById('random-image');
+const btn = document.getElementById('random-btn');
 
 const scrArray = ['cat1.png, cat2.png, cat3.png, cat4.png, cat5.png'];
 
@@ -46,14 +46,15 @@ btn.addEventListener('click', () => {
     window.location.reload();
 });
 
-randomImage();
-function randomImage() {
-  const randomIndex = Math.floor(Math.random()*srcArray.length);
-  document.getElementById(imagesArray[num]);
-
-  imgEl.src = srcArray[randomIndex];
+let randomImage = () => {
+  const randomIndex = Math.floor(Math.random() * scrArray.length);
+  imgEl.src = scrArray[randomIndex];
+  console.log(imgEl)
 
 }
+
+randomImage();
+
 
 
 </script>
