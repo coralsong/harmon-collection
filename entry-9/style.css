@@ -63,18 +63,18 @@ html {
   
 
   
-  /* .floating {
+.floating {
       position: absolute;
-      z-index: 5;
-      top: 100px;
-      left: 100px;
+      z-index: 10;
+      top: -60px;
+      left: -50px;
       opacity: 0;
       display: block;
   }
   
   .floating:hover {
   opacity: 1;
-  } */
+  }
   
   /* .text {
       position: absolute;
@@ -89,13 +89,12 @@ html {
       max-width: 50px;
   } */
   
-  /* .maps{
-  width: 210px;
+  .magazine{
+  width: 1600px;
       height: auto;
       position: absolute;
-      z-index: 2;
+      z-index: 10;
       margin: 0px;
       padding: 0px;
-      left: 1065px;
-      top: 435px;
-  } */
+
+  }
