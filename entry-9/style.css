@@ -75,19 +75,7 @@ html {
   .floating:hover {
   opacity: 1;
   }
-  
-  /* .text {
-      position: absolute;
-      z-index: 10;
-      top: 230px;
-      left: 250px;
-  } */
-  
-  /* p {
-      position: absolute;
-      font-size: 12px;
-      max-width: 50px;
-  } */
+
   
   .magazine{
   width: 1600px;
@@ -96,5 +84,13 @@ html {
       z-index: 10;
       margin: 0px;
       padding: 0px;
+  }
 
+  .cat{
+  width: 1600px;
+      height: auto;
+      position: absolute;
+      z-index: 10;
+      margin: 0px;
+      padding: 0px;
   }
