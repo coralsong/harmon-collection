@@ -49,9 +49,23 @@
         /* transition: background-image 0.3s ease-in-out; */
     }
 
-        .image-hover-container:hover {
-        background-image: url('../archive/entry1.png');
+.entry-1 img{
+        position: relative;
+        width: 300px;
+        height: auto;
+        top: 100px;
+        opacity: 0;
     }
+
+img:hover {
+opacity: 1;
+        position: relative;
+        width: 300px;
+        height: auto;
+        top: 50px;
+}
+
+
 
 
   html {
