@@ -47,12 +47,34 @@ p {
 
 a {
   text-decoration-line: none;
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
+  /* text-shadow: 0.5px 0.5px 1px #000000; */
 }
 
+h1, h2 {transition-timing-function: ease;}
+
 a:hover {
-color: #39FF14
+opacity: 0;
 }
 
 html {
   background-color: whitesmoke;
+}
+
+@keyframes move-around {
+  0% {
+    top: 0;
+    left: 0;
+}
+
+68%,
+72% {
+  left: 50px;
+}
+
+100% {
+  top: 100;
+  left: 100;
 }
