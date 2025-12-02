@@ -7,7 +7,7 @@ html {
       opacity: 0;
       text-decoration: none;
       font-size: 60px;
-      z-index: 3;
+      z-index: 1000;
       position: relative;
   }
   
@@ -16,12 +16,12 @@ html {
   /* color: #4A5D23; */
   color: white;
   text-decoration-line: none;
-  z-index: 3;
+  z-index: 1000;
   }
 
  #home {
       position: absolute;
-      z-index: 3;
+      z-index: 1000;
       top: 0px;
       left: 30px;
   }
