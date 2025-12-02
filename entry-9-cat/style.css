@@ -1,0 +1,101 @@
+html {
+    color:white;
+    background-color: black;
+  }
+  
+  a {
+      opacity: 0;
+      text-decoration: none;
+      font-size: 60px;
+      z-index: 3;
+      position: relative;
+  }
+  
+  a:hover {
+      opacity: 1;
+  /* color: #4A5D23; */
+  color: white;
+  text-decoration-line: none;
+  z-index: 3;
+  }
+
+ #home {
+      position: absolute;
+      z-index: 3;
+      top: 0px;
+      left: 30px;
+  }
+  
+  #background {
+      position: relative;
+      z-index: 1;
+  }
+  
+  #background img {
+      position: relative;
+      z-index: 1;
+      margin: 0px;
+      top: 0px;
+  }
+  
+
+/* how to I make it so that it moves when only hovered on the shilouette? */
+  #change-color {
+      position: absolute;
+      z-index: 2;
+      filter: hue-rotate(200deg);
+      top: -30px;
+      left: -75px;
+      opacity: 0;
+  }
+  
+  #change-color img{
+      position: relative;
+      z-index: 2;
+      margin: 10px;
+      top: 10px;
+  }
+
+  #change-color:hover {
+    opacity:1;
+  }
+  
+  
+
+  
+  /* .floating {
+      position: absolute;
+      z-index: 5;
+      top: 100px;
+      left: 100px;
+      opacity: 0;
+      display: block;
+  }
+  
+  .floating:hover {
+  opacity: 1;
+  } */
+  
+  /* .text {
+      position: absolute;
+      z-index: 10;
+      top: 230px;
+      left: 250px;
+  } */
+  
+  /* p {
+      position: absolute;
+      font-size: 12px;
+      max-width: 50px;
+  } */
+  
+  /* .maps{
+  width: 210px;
+      height: auto;
+      position: absolute;
+      z-index: 2;
+      margin: 0px;
+      padding: 0px;
+      left: 1065px;
+      top: 435px;
+  } */
