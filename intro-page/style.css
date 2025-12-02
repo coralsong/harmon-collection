@@ -62,19 +62,3 @@ opacity: 0;
 html {
   background-color: whitesmoke;
 }
-
-@keyframes move-around {
-  0% {
-    top: 0;
-    left: 0;
-}
-
-68%,
-72% {
-  left: 50px;
-}
-
-100% {
-  top: 100;
-  left: 100;
-}
