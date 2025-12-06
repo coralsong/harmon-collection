@@ -1,9 +1,26 @@
-// Select all elements that you might want to randomly display
-let allImgs = document.querySelectorAll("div");
+document.addEventListener('DOMContentLoaded', function() {
 
-// Get a random index based on the element length 
-let randomIndex = Math.floor(Math.random() * allImgs.length)
-console.log(randomIndex)
+  let randomBtn = document.getElementById("random-button");
+  let allImgs = document.querySelectorAll("img");
 
-// Set element with random index to visible 
-allImgs[randomIndex].style.visibility = "visible";
+  function generateRandomImage() {
+
+    // Hide all images completely
+    allImgs.forEach(img => {
+      img.style.display = "none";
+    });
+
+    // Pick a random one
+    let randomIndex = Math.floor(Math.random() * allImgs.length);
+    console.log(randomIndex);
+
+    // Show the selected image
+    allImgs[randomIndex].style.display = "block";
+  }
+
+  // Show a random image at page load
+  generateRandomImage();
+
+  // Show a new random image on button click
+  randomBtn.addEventListener('click', generateRandomImage);
+});
