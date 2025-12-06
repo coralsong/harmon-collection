@@ -1,7 +1,8 @@
 iframe {
   position: relative;
-  left: 25%;
-  top: 100px;;
+  left: 22%;
+  top: 70px;
+  z-index: 10;
 }
 
 html {
@@ -9,7 +10,11 @@ html {
   background-color: black;
 }
 
-  a {
+/* body {
+  overflow: hidden;
+} */
+
+  h1 {
       opacity: 0;
       text-decoration: none;
       font-size: 60px;
@@ -18,48 +23,38 @@ html {
       margin-left: 10px;
   }
   
-  a:hover {
-      opacity: 1;
+  h1:hover {
+  opacity: 1;
   color: white;
   text-decoration-line: none;
   z-index: 1000;
   }
 
-/* #background {
-    position: relative;
-    z-index: -5;
-    top: 0;
-    left: 0;
-} */
 
-/* #background img {
-    width: 1430px;
-    height: 750px;
+#frame {
     position: relative;
-    z-index: -5;
-    margin: 0px;
-    top: 0px; */
-/* 
-h1 {
+    top: -430px;
+    left: 250px;
+     width: 1210px;
+  }
+
+#frame img {
+   height: 640px;
+   z-index: 1;
+  }
+
+h2 {
+  font-size: 30px;
+  color: white;
+  z-index: 100;
+  position: absolute;
+top: 20px;
+left: 45%;
+}
+
+#button1 {
 position: absolute;
-top: 10px;
-left: 30px;
-font-size: 40px;
-z-index: 10;
+top: -100px;
+left: 0;
+z-index: 1000;
 }
-
-.video {
-    position: absolute;
-    z-index: 5;
-    top: 50%;
-    left: 50%;
-    opacity: 0.8;
-}
-
-.video iframe {
-    width: 200px;
-    height: auto;
-    position: relative;
-    z-index: 5;
-    margin: 0px;
-} */
