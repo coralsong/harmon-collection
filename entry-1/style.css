@@ -2,6 +2,7 @@ iframe {
   position: relative;
   left: 25%;
   top: 100px;
+  z-index: 10;
 }
 
 
@@ -10,17 +11,13 @@ html {
   background-color: black;
 }
 
-img {
-  width: 500px;
-  height: 300px;
-}
-
   a {
       opacity: 0;
       text-decoration: none;
       font-size: 60px;
       z-index: 1000;
       position: relative;
+      margin-left: 10px;
   }
   
   a:hover {
@@ -29,4 +26,18 @@ img {
   color: white;
   text-decoration-line: none;
   z-index: 1000;
+  }
+
+#frame {
+    position: relative;
+    top: -370px;
+    left: 250px;
+     width: 1200px;
+
+  }
+
+#frame img {
+   height: 590px;
+   /* display: none; */
+   z-index: 1;
   }

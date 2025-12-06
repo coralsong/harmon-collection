@@ -9,6 +9,7 @@ html {
       font-size: 60px;
       z-index: 1000;
       position: relative;
+      margin-left: 10px;
   }
   
   a:hover {
