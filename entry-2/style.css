@@ -1,19 +1,32 @@
 iframe {
   position: relative;
-  left: 25%;
-  top: 100px;
+  left: 26.5%;
+  top: 40px;
+    z-index: 10;
 }
-
 
 html {
   color:white;
   background-color: black;
 }
 
-img {
-  width: 500px;
-  height: 300px;
+body {
+  /* overflow: hidden; */
 }
+
+#frame {
+    position: absolute;
+    top: 60px;
+    left: 280px;
+     width: 1200px;
+    z-index: 1;
+
+  }
+
+#frame img {
+   height: 730px;
+   z-index: 1;
+  }
 
   a {
       opacity: 0;
@@ -31,3 +44,51 @@ img {
   text-decoration-line: none;
   z-index: 1000;
   }
+
+  h2 {
+  font-size: 30px;
+  color: white;
+  z-index: 100;
+  position: absolute;
+top: 0px;
+left: 45%;
+}
+
+#remote {
+  z-index: 100;
+  position: relative;
+  top:-200px;
+}
+
+#remote img {
+  position: relative;
+    left:1150px;
+    z-index: 100;
+}
+
+#next {
+  font-size: 20px;
+  color: white;
+  z-index: 10000;
+  position: absolute;
+top: 445px;
+left: 85.5%;
+}
+
+#previous {
+  font-size: 20px;
+  color: white;
+  z-index: 10000;
+  position: absolute;
+top: 495px;
+left: 85.5%;
+}
+
+
+#previous:hover {
+opacity: 1;
+}
+
+#next:hover {
+opacity: 1;
+}
