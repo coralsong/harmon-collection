@@ -24,6 +24,20 @@ h1:hover {
   text-decoration-line: none;
 }
 
+h1, h2 {transition-timing-function: ease;}
+
+  a {
+  text-decoration-line: none;
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
+  /* text-shadow: 0.5px 0.5px 1px #000000; */
+}
+
+a:hover {
+opacity: 0;
+}
+
 img {
     width: 300px;
     height: 225px;
@@ -91,3 +105,6 @@ opacity: 1;
   html {
     background-color: whitesmoke;
   }
+
+
+
