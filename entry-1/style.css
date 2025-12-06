@@ -10,29 +10,28 @@ html {
   background-color: black;
 }
 
-a {
-  color: white;
-    text-decoration: none;
-}
-
-a:hover {
-color: #39FF14
-}
-
 img {
   width: 500px;
   height: 300px;
 }
 
-#onion {
-  position: relative;
-  top: -400px;
-  left: -70px;
+
+#home {
+  text-decoration-line: none;
 }
 
-#shoes {
-  position: relative;
-  top: -400px;
-  left: 0px;
-}
-
+  a {
+      opacity: 0;
+      text-decoration: none;
+      font-size: 60px;
+      z-index: 1000;
+      position: relative;
+  }
+  
+  a:hover {
+      opacity: 1;
+  /* color: #4A5D23; */
+  color: white;
+  text-decoration-line: none;
+  z-index: 1000;
+  }
