@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 #frame {
@@ -39,7 +39,6 @@ body {
   
   a:hover {
       opacity: 1;
-  /* color: #4A5D23; */
   color: white;
   text-decoration-line: none;
   z-index: 1000;

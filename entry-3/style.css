@@ -1,21 +1,22 @@
-iframe {
-  position: relative;
-  left: 25%;
-  top: 100px;
-}
-
 html {
   color:white;
   background-color: black;
 }
 
+iframe {
+  position: relative;
+  left: 22%;
+  top: 66px;
+    z-index: 10;
+    height: 500px;
+}
+
 #frame {
     position: absolute;
-    top: 60px;
-    left: 280px;
+    top: 130px;
+    left: 270px;
      width: 1200px;
     z-index: 1;
-
   }
 
 #frame img {
@@ -39,3 +40,53 @@ html {
   text-decoration-line: none;
   z-index: 1000;
   }
+
+
+  h2 {
+  font-size: 30px;
+  color: white;
+  z-index: 100;
+  position: absolute;
+top: 50px;
+left: 47%;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  z-index: 100;
+  position: absolute;
+}
+
+
+#button1 {
+position: relative;
+top: -395px;
+left: 1070px;
+z-index: 10000;
+}
+
+#button2 {
+position: relative;
+top: -395px;
+left: 1100px;
+z-index: 100;
+}
+
+#next {
+font-size: 20px;
+color: white;
+z-index: 100;
+position: absolute;
+top: 230px;
+left: 87%;
+}
+
+#previous {
+font-size: 20px;
+color: white;
+z-index: 100;
+position: absolute;
+top: 400px;
+left: 87%;
+}
