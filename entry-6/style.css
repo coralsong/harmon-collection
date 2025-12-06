@@ -3,15 +3,27 @@ html {
   background-color: black;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
+  a {
+      opacity: 0;
+      text-decoration: none;
+      font-size: 60px;
+      z-index: 1000;
+      position: relative;
+  }
+  
+  a:hover {
+      opacity: 1;
+  color: white;
+  text-decoration-line: none;
+  z-index: 1000;
+  }
 
-a:hover {
-color: #4A5D23;
-text-decoration-line: underline;
-}
+ #home {
+      position: absolute;
+      z-index: 1000;
+      top: 0px;
+      left: 30px;
+  }
 
 #background {
     position: relative;
@@ -25,12 +37,6 @@ text-decoration-line: underline;
     z-index: -5;
     margin: 0px;
     top: 0px;
-}
-h1 {
-position: absolute;
-top: 10px;
-left: 30px;
-font-size: 40px;
 }
 
 .floating {

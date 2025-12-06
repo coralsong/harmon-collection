@@ -1,19 +1,37 @@
 iframe {
   position: relative;
   left: 25%;
-  top: 100px;;
+  top: 100px;
 }
+
 
 html {
   color:white;
   background-color: black;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+img {
+  width: 500px;
+  height: 300px;
 }
 
-a:hover {
-color: #39FF14
+
+#home {
+  text-decoration-line: none;
 }
+
+  a {
+      opacity: 0;
+      text-decoration: none;
+      font-size: 60px;
+      z-index: 1000;
+      position: relative;
+  }
+  
+  a:hover {
+      opacity: 1;
+  /* color: #4A5D23; */
+  color: white;
+  text-decoration-line: none;
+  z-index: 1000;
+  }
