@@ -1,6 +1,6 @@
 iframe {
   position: relative;
-  left: 25%;
+  left: 20%;
   top: 100px;
   z-index: 10;
 }
@@ -9,6 +9,10 @@ iframe {
 html {
   color:white;
   background-color: black;
+}
+
+body {
+  overflow: hidden;
 }
 
   a {
@@ -37,7 +41,30 @@ html {
   }
 
 #frame img {
-   height: 590px;
+   height: 570px;
    /* display: none; */
    z-index: 1;
   }
+
+#button1 {
+position: relative;
+top: -675px;
+left: 1070px;
+z-index: 10;
+  }
+
+
+#button2 {
+  position: relative;
+top: -680px;
+left: 1065px;
+z-index: 10;
+}
+
+.button {
+  opacity: 0;
+}
+
+.button:hover {
+opacity: 1;
+}
