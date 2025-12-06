@@ -3,12 +3,6 @@ html {
     background-color: black;
     max-height: 400px;
   }
-
-body {
-  /* width: 1500px; */
-  /* height: 571px; */
-  /* overflow: hidden; */
-  }
   
   a {
       opacity: 0;
@@ -86,13 +80,10 @@ main {
     left: -630px;
   }
 
-/* section {
+section {
   display: flex;
-} */
+}
 
 div {
-  /* width: 1000px;
-  height: 1000px; */
-  margin: 10px;
   visibility: hidden;
 }
