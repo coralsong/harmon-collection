@@ -10,11 +10,11 @@ html {
   background-color: black;
 }
 
-/* body {
+body {
   overflow: hidden;
-} */
+}
 
-  h1 {
+  h1 a{
       opacity: 0;
       text-decoration: none;
       font-size: 60px;
@@ -23,7 +23,7 @@ html {
       margin-left: 10px;
   }
   
-  h1:hover {
+  h1:hover a{
   opacity: 1;
   color: white;
   text-decoration-line: none;
@@ -54,7 +54,34 @@ left: 45%;
 
 #button1 {
 position: absolute;
-top: -100px;
-left: 0;
+top: 200px;
+left: 985px;
 z-index: 1000;
+}
+
+#button2 {
+position: absolute;
+top: 330px;
+left: 985px;
+z-index: 1000;
+}
+
+section {
+  opacity: 0;
+}
+
+section:hover {
+  opacity: 1;
+}
+
+#next {
+  position: absolute;
+  top: 235px;
+  left: 1180px;
+}
+
+#previous {
+  position: absolute;
+  top: 365px;
+  left: 1180px;
 }
