@@ -52,16 +52,19 @@ top: 20px;
 left: 45%;
 }
 
+
+/* button for next entry */
 #button1 {
 position: absolute;
-top: 200px;
+top: 170px;
 left: 985px;
 z-index: 1000;
 }
 
+/* button for previous entry */
 #button2 {
 position: absolute;
-top: 330px;
+top: 290px;
 left: 985px;
 z-index: 1000;
 }
@@ -74,14 +77,16 @@ section:hover {
   opacity: 1;
 }
 
+
+/* text for buttons */
 #next {
   position: absolute;
-  top: 235px;
+  top: 190px;
   left: 1180px;
 }
 
 #previous {
   position: absolute;
-  top: 365px;
+  top: 335px;
   left: 1180px;
 }

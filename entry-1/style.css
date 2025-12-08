@@ -37,6 +37,7 @@ body {
     top: -370px;
     left: 250px;
      width: 1200px;
+     max-width: 90%;
 
   }
 
@@ -48,8 +49,8 @@ body {
 
 #button1 {
 position: relative;
-top: -675px;
-left: 1070px;
+top: 5vh;
+left: 10vw;
 z-index: 10;
   }
 
