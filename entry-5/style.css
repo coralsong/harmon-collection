@@ -2,6 +2,7 @@ iframe {
   position: relative;
   left: 25%;
   top: 100px;
+  z-index: 10;
 }
 
 
@@ -10,10 +11,6 @@ html {
   background-color: black;
 }
 
-img {
-  width: 500px;
-  height: 300px;
-}
 
   a {
       opacity: 0;
@@ -31,3 +28,53 @@ img {
   text-decoration-line: none;
   z-index: 1000;
   }
+
+#frame {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+     width: 1210px;
+     height: auto;
+  }
+
+#frame img {
+   height: 640px;
+   z-index: 1;
+  }
+
+section {
+  opacity: 0;
+}
+
+section:hover {
+  opacity: 1;
+}
+
+  /* button for next entry */
+#button1 {
+position: absolute;
+top: 170px;
+left: 985px;
+z-index: 1000;
+}
+
+/* button for previous entry */
+#button2 {
+position: absolute;
+top: 290px;
+left: 985px;
+z-index: 1000;
+}
+
+/* text for buttons */
+#next {
+  position: absolute;
+  top: 190px;
+  left: 1180px;
+}
+
+#previous {
+  position: absolute;
+  top: 335px;
+  left: 1180px;
+}
