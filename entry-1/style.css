@@ -101,9 +101,7 @@ p {
   left: 86%;
 }
 
-/* ---------------
-   TABLET (≤ 1024px)
----------------- */
+/*  TABLET (≤ 1024px) */
 @media (max-width: 1024px) {
 
   iframe {
@@ -149,9 +147,7 @@ p {
   }
 }
 
-/* ---------------
-   MOBILE (≤ 600px)
----------------- */
+/* MOBILE (≤ 600px) */
 @media (max-width: 600px) {
 
   iframe {
