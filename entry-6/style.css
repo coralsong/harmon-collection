@@ -3,16 +3,17 @@ html {
   background-color: black;
 }
 
-  a {
+  h1 a{
       opacity: 0;
       text-decoration: none;
+        color: white;
       font-size: 60px;
       z-index: 1000;
       position: relative;
       margin-left: 20px;
   }
   
-  a:hover {
+  h1 a:hover {
       opacity: 1;
   color: white;
   text-decoration-line: none;
@@ -27,13 +28,11 @@ html {
   }
 
 #background {
-    position: relative;
-    z-index: 0;
+    position: absolute;
+    z-index: -5;
 }
 
 #background img {
-    /* width: 1430px;
-    height: 750px; */
     position: relative;
     z-index: -5;
     margin: 0px;
@@ -57,15 +56,43 @@ html {
 }
 
 .text {
-    position: absolute;  /* Required for z-index to work */
-    z-index: 10;         /* Higher than .floating (5) so it appears on top */
-    /* You can also set top/left here if needed for positioning */
-    top: 230px;
-    left: 250px;
+    position: absolute;
+    z-index: 10;
+
+
 }
 
-p {
+#text1 {
     position: absolute;
-    font-size: 12px;
-    max-width: 100px;
+    top: 20vh;
+    left: 30vw;
+    z-index: 10;
+     font-size: 20px;
+    width: 600px;
+}
+
+#text2 {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    z-index: 10;
+    font-size: 15px;
+        width: 200px;
+}
+
+
+.next-btn {
+position: absolute;
+width: 50px;
+height: auto;
+top: 90vh;
+left: 93vw;
+}
+
+.prev-btn {
+position: absolute;
+width: 50px;
+height: auto;
+top: 90vh;
+left: 2vw;
 }
