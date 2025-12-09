@@ -4,28 +4,33 @@ html {
     max-height: 400px;
   }
   
-  a {
-      opacity: 0;
-      text-decoration: none;
-      font-size: 60px;
-      z-index: 1000;
-      position: relative;
-  }
-  
-  a:hover {
-      opacity: 1;
-  /* color: #4A5D23; */
-  color: white;
-  text-decoration-line: none;
-  z-index: 1000;
-  }
-
 h1 {
-      position: absolute;
-      z-index: 1000;
-      top: 0px;
-      left: 30px;
-  }
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 40px;
+  z-index: 2000;
+}
+
+h1 a {
+  opacity: 0;
+  text-decoration: none;
+  font-size: 60px;
+  color: white;
+  transition: opacity .3s ease;
+}
+
+h1 a:hover {
+  opacity: 1;
+}
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+}
   
 main {
       position: relative;
@@ -86,4 +91,14 @@ section {
 
 div {
   visibility: hidden;
+}
+
+.text {
+    position: absolute;
+    top: 40vh;
+    left: 44vw;
+    z-index: 1000;
+     font-size: 20px;
+    width: 500px;
+    z-index: 1000;
 }
