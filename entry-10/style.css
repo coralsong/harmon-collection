@@ -80,3 +80,23 @@ opacity: 0;
      font-size: 20px;
     width: 500px;
 }
+
+#button {
+    position: relative;
+}
+
+.next-btn {
+  position: fixed;
+  top: 90vh;
+  left: 93vw;
+  width: 50px;
+  z-index: 2000;
+}
+
+.prev-btn {
+  position: fixed;
+  top: 90vh;
+  left: 2vw;
+  width: 50px;
+  z-index: 2000;
+}
