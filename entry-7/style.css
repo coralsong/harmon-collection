@@ -7,21 +7,25 @@ body {
   /* overflow: hidden; */
 }
 
- h1 a {
-      opacity: 0;
-      text-decoration: none;
-      font-size: 60px;
-      z-index: 1000;
-      position: relative;
-      margin-left: 20px;
-  }
-  
-  h1 a:hover {
-      opacity: 1;
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 40px;
+  z-index: 2000;
+}
+
+h1 a {
+  opacity: 0;
+  text-decoration: none;
+  font-size: 60px;
   color: white;
-  text-decoration-line: none;
-  z-index: 1000;
-  }
+  transition: opacity .3s ease;
+}
+
+h1 a:hover {
+  opacity: 1;
+}
 
  #home {
       position: absolute;
