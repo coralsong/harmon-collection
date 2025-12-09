@@ -1,6 +1,6 @@
 iframe {
   position: relative;
-  left: 25%;
+  left: 20%;
   top: 100px;
   z-index: 10;
 }
@@ -31,14 +31,13 @@ html {
 
 #frame {
     position: absolute;
-    top: 100px;
-    left: 300px;
+    top: 160px;
+    left: 245px;
      width: 1210px;
-     height: auto;
   }
 
 #frame img {
-   height: 640px;
+   height: 550px;
    z-index: 1;
   }
 
@@ -53,28 +52,38 @@ section:hover {
   /* button for next entry */
 #button1 {
 position: absolute;
-top: 170px;
-left: 985px;
+top: 205px;
+left: 980px;
 z-index: 1000;
+transform: rotate(45deg);
 }
 
 /* button for previous entry */
 #button2 {
 position: absolute;
-top: 290px;
-left: 985px;
+top: 365px;
+left: 1055px;
 z-index: 1000;
 }
 
 /* text for buttons */
 #next {
   position: absolute;
-  top: 190px;
+  top: 250px;
   left: 1180px;
 }
 
 #previous {
   position: absolute;
-  top: 335px;
+  top: 375px;
   left: 1180px;
+}
+
+  h2 {
+  font-size: 30px;
+  color: white;
+  z-index: 100;
+  position: absolute;
+top: 60px;
+left: 45%;
 }
