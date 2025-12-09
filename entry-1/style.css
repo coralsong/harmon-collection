@@ -17,7 +17,7 @@ iframe {
 
 /* title */
 #home h1 a {
-  opacity: 0;
+  opacity: 1;
   text-decoration: none;
   font-size: clamp(2rem, 6vw, 3.5rem);
   margin-left: 15px;
@@ -26,8 +26,39 @@ iframe {
 }
 
 #home h1 a:hover {
-  opacity: 1;
+  opacity: 0;
 }
+
+.home {
+  text-decoration-line: none;
+}
+
+
+h1 {
+  position: relative;
+  left: 10px;
+  font-size: 50px;
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+  padding: 5px;
+  text-decoration-line: none;
+  transition-timing-function: ease;
+}
+
+h1:hover {
+  text-decoration-line: none;
+}
+
+  a {
+  text-decoration-line: none;
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
+  /* text-shadow: 0.5px 0.5px 1px #000000; */
+}
+
 
 #frame {
   position: absolute;     /* important: makes layout consistent */
