@@ -4,10 +4,10 @@ html {
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-  a {
+ h1 a {
       opacity: 0;
       text-decoration: none;
       font-size: 60px;
@@ -16,7 +16,7 @@ body {
       margin-left: 20px;
   }
   
-  a:hover {
+  h1 a:hover {
       opacity: 1;
   color: white;
   text-decoration-line: none;
@@ -58,34 +58,31 @@ body {
     margin: 0px;
 }
 
-.text {
-    position: absolute;  /* Required for z-index to work */
-    z-index: 10;         /* Higher than .floating (5) so it appears on top */
-    /* You can also set top/left here if needed for positioning */
-    top: 230px;
-    left: 250px;
-}
-
-p {
-    position: absolute;
-    font-size: 12px;
-    max-width: 50px;
+.button {
+    position: relative;
 }
 
 .next-btn {
-position: absolute;
-width: 50px;
-height: auto;
-top: 90vh;
-left: 93vw;
-z-index: 100;
+  position: fixed;
+  top: 90vh;
+  left: 93vw;
+  width: 50px;
+  z-index: 2000;
 }
 
 .prev-btn {
-position: absolute;
-width: 50px;
-height: auto;
-top: 90vh;
-left: 2vw;
-z-index: 100;
+  position: fixed;
+  top: 90vh;
+  left: 2vw;
+  width: 50px;
+  z-index: 2000;
+}
+
+#text1 {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    z-index: 10;
+     font-size: 20px;
+    width: 500px;
 }
