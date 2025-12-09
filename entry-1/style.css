@@ -12,6 +12,7 @@ iframe {
   left: 20%;
   top: 100px;
   z-index: 10;
+  visibility: hidden;
 }
 
 /* title */
@@ -29,37 +30,40 @@ iframe {
 }
 
 #frame {
-    position: relative;
-    top: -370px;
-    left: 250px;
-     width: 1200px;
-     max-width: 90%;
-
-  }
+  position: absolute;     /* important: makes layout consistent */
+  top: 17vh;              /* adjusts vertically with screen height */
+  left: 18vw;             /* adjusts horizontally with screen width */
+  width: 80vw;            /* keeps it responsive */
+  max-width: 1200px;      /* preserves your large-desktop size */
+  z-index: 1;
+}
 
 #frame img {
-   height: 570px;
-   /* display: none; */
-   z-index: 1;
-  }
+  width: 100%;            /* scale to container */
+  height: auto;           /* prevent warping */
+}
 
 
 #button1 {
-position: relative;
-top: -675px;
-left: 75vw;
-z-index: 10;
-  }
+  position: absolute;
+  top: 55vh;
+  left: 75vw;
+  z-index: 1000;
+    width: 15vw;
+  max-width: 200px;   /* never gets too wide */
+  min-width: 80px;    /* never gets too small */
+  height: auto;
+}
 
 #button2 {
-position: relative;
-top: -680px;
-left: 75vw;
-z-index: 10;
+  position: absolute;
+  top: 35.5vh;
+  left: 25vw;
+  z-index: 1000;
 }
 
 .button1 {
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .button1:hover {
@@ -67,7 +71,7 @@ opacity: 1;
 }
 
 .button2 {
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .button2:hover {
@@ -75,12 +79,12 @@ opacity: 1;
 }
 
 h2 {
-  font-size: 30px;
+  position: absolute;
+  top: 5vh;       /* vertical responsive offset */
+  left: 45vw;     /* horizontal responsive offset */
+  font-size: 2.2rem;
   color: white;
   z-index: 100;
-  position: absolute;
-top: 60px;
-left: 47%;
 }
 
 p {
@@ -107,4 +111,34 @@ left: 86%;
   position: absolute;
 top: 530px;
 left: 86%;
+}
+
+@media (max-width: 1024px) {
+  #frame {
+    top: 8vh;
+    left: 5vw;
+    width: 90vw;
+  }
+
+  h2 {
+    top: 6vh;
+    left: 35vw;
+    font-size: 1.9rem;
+  }
+}
+
+}
+
+@media (max-width: 600px) {
+  #frame {
+    top: 5vh;
+    left: 0;
+    width: 100vw;
+  }
+
+    h2 {
+    top: 4vh;
+    left: 25vw;
+    font-size: 1.6rem;
+  }
 }
