@@ -3,9 +3,13 @@ html {
   background-color: black;
 }
 
+body {
+  /* overflow: hidden; */
+}
+
 .home {
   text-decoration-line: none;
-  z-index: 2000;
+  z-index: 20;
     position: relative; /* REQUIRED for z-index to work */
 }
 
@@ -19,7 +23,7 @@ h1 {
   margin: none;
   padding: none;
   text-decoration-line: none;
-  z-index: 3000;
+  z-index: 30;
   transition-timing-function: ease;
 }
 
@@ -31,7 +35,7 @@ h1:hover {
   visibility: visible;
   opacity: 1;
   transition: 2s;
-  z-index: 1000;
+  z-index: 10;
 }
 
 a:hover {
@@ -48,6 +52,24 @@ opacity: 0;
 }
 
 #background img {
+  position: absolute;
   width: 100%;
   z-index: 1;
 }
+
+#balloons {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  width: 50px;
+  z-index: 100;  
+}
+
+.balloon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
