@@ -70,8 +70,8 @@ left: 45%;
   color: white;
   z-index: 10000;
   position: absolute;
-top: 445px;
-left: 85.5%;
+top: 58vh;
+left: 84.5vw;
 }
 
 #previous {
@@ -79,8 +79,8 @@ left: 85.5%;
   color: white;
   z-index: 10000;
   position: absolute;
-top: 495px;
-left: 85.5%;
+top: 64vh;
+left: 84.5vw;
 }
 
 
