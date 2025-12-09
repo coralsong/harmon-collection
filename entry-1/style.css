@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 iframe {
@@ -43,18 +43,18 @@ iframe {
    z-index: 1;
   }
 
+
 #button1 {
-position: relative;
-top: 5vh;
-left: 10vw;
+  position: relative;
+  top: 100px;
+  left: 75vw;
 z-index: 10;
   }
 
-
 #button2 {
-  position: relative;
+position: relative;
 top: -680px;
-left: 1065px;
+left: 75vw;
 z-index: 10;
 }
 
