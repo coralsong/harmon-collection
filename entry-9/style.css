@@ -3,7 +3,7 @@ html {
     background-color: black;
   }
   
-  a {
+h1  a {
       opacity: 0;
       text-decoration: none;
       font-size: 60px;
@@ -12,7 +12,7 @@ html {
       margin-left: 20px;
   }
   
-  a:hover {
+ h1 a:hover {
       opacity: 1;
   color: white;
   text-decoration-line: none;
@@ -78,7 +78,7 @@ html {
   
   .cat{
     position: absolute;
-    left: 1vw;
+    left: 3vw;
     top: 580px;
     width: 100px;
       height: auto;
@@ -105,4 +105,24 @@ html {
     z-index: 1000;
      font-size: 20px;
     width: 500px;
+}
+
+#button {
+    position: relative;
+}
+
+.next-btn {
+  position: fixed;
+  top: 90vh;
+  left: 93vw;
+  width: 50px;
+  z-index: 2000;
+}
+
+.prev-btn {
+  position: fixed;
+  top: 90vh;
+  left: 2vw;
+  width: 50px;
+  z-index: 2000;
 }
