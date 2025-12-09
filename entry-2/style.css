@@ -91,3 +91,99 @@ opacity: 1;
 #next:hover {
 opacity: 1;
 }
+@media (max-width: 1024px) {
+  iframe {
+    left: 15%;
+    width: 70%;
+  }
+
+  #frame {
+    left: 10%;
+    width: 80%;
+  }
+
+  #frame img {
+    width: 100%;
+    height: auto;
+  }
+
+  #remote img {
+    left: 75%;
+  }
+
+  #next, #previous {
+    left: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  iframe {
+    left: 5%;
+    width: 90%;
+    top: 30px;
+  }
+
+  #frame {
+    left: 5%;
+    width: 90%;
+    top: 40px;
+  }
+
+  h2 {
+    left: 50%;
+    font-size: 24px;
+  }
+
+  #remote img {
+    left: 70%;
+  }
+
+  #next {
+    top: 380px;
+    left: 72%;
+  }
+
+  #previous {
+    top: 430px;
+    left: 72%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow: auto;
+  }
+
+  iframe {
+    left: 5%;
+    width: 90%;
+    top: 20px;
+  }
+
+  #frame {
+    left: 5%;
+    width: 90%;
+    top: 20px;
+  }
+
+  h2 {
+    left: 50%;
+    font-size: 20px;
+  }
+
+  #remote img {
+    left: 60%;
+  }
+
+  #next {
+    top: 300px;
+    left: 65%;
+    font-size: 16px;
+  }
+
+  #previous {
+    top: 350px;
+    left: 65%;
+    font-size: 16px;
+  }
+}
